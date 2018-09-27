@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="PHPCompatibilityPasswordCompat">
+    <description>PHPCompatibility ruleset for PHP_CodeSniffer which accounts for polyfills provided by ircmaxell's password_compat library.</description>
+
+    <rule ref="PHPCompatibility">
+        <!-- https://github.com/ircmaxell/password_compat/blob/master/lib/password.php -->
+        <exclude name="PHPCompatibility.Constants.NewConstants.password_bcryptFound"/>
+        <exclude name="PHPCompatibility.Constants.NewConstants.password_bcrypt_default_costFound"/>
+        <exclude name="PHPCompatibility.Constants.NewConstants.password_defaultFound"/>
+        <exclude name="PHPCompatibility.FunctionUse.NewFunctions.password_get_infoFound"/>
+        <exclude name="PHPCompatibility.FunctionUse.NewFunctions.password_hashFound"/>
+        <exclude name="PHPCompatibility.FunctionUse.NewFunctions.password_needs_rehashFound"/>
+        <exclude name="PHPCompatibility.FunctionUse.NewFunctions.password_verifyFound"/>
+    </rule>
+
+</ruleset>
