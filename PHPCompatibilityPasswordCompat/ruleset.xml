@@ -13,4 +13,15 @@
         <exclude name="PHPCompatibility.FunctionUse.NewFunctions.password_verifyFound"/>
     </rule>
 
+    <!-- Prevent false positives being thrown when run over the code of password_compat itself. -->
+    <rule ref="PHPCompatibility.Constants.RemovedConstants.mcrypt_dev_urandomDeprecatedRemoved">
+        <exclude-pattern>/password[-_]compat/lib/password\.php$</exclude-pattern>
+    </rule>
+    <rule ref="PHPCompatibility.Extensions.RemovedExtensions.mcryptDeprecatedRemoved">
+        <exclude-pattern>/password[-_]compat/lib/password\.php$</exclude-pattern>
+    </rule>
+    <rule ref="PHPCompatibility.FunctionUse.RemovedFunctions.mcrypt_create_ivDeprecatedRemoved">
+        <exclude-pattern>/password[-_]compat/lib/password\.php$</exclude-pattern>
+    </rule>
+
 </ruleset>
