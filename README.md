@@ -86,6 +86,12 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 
 ## Changelog
 
+### 1.0.1 - 2018-12-16
+
+* Prevent false positives when the ruleset is run over the code of the polyfill itself.
+* The ruleset is now also tested against PHP 7.3.
+    Note: full PHP 7.3 support is only available in combination with PHP_CodeSniffer 2.9.2 or 3.3.1+ due to an incompatibility within PHP_CodeSniffer itself.
+
 ### 1.0.0 - 2018-10-07
 
 Initial release of the PHPCompatibilityPasswordCompat ruleset.
