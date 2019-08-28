@@ -2,13 +2,11 @@ sudo: false
 
 dist: trusty
 
-cache:
-  apt: true
-
 language: php
 
 ## Cache composer downloads.
 cache:
+  apt: true
   directories:
     - $HOME/.cache/composer/files
 
@@ -41,7 +39,10 @@ script:
     fi
 
   # Test the ruleset.
-  - vendor/bin/phpcs ./Test/PasswordCompatTest.php --standard=PHPCompatibilityPasswordCompat --runtime-set testVersion 5.4
+  - vendor/bin/phpcs ./Test/PasswordCompatTest.php --standard=PHPCompatibilityPasswordCompat --runtime-set testVersion 5.4-
+
+  # Check that the ruleset does not throw unnecessary errors for the compat library itself.
+  - vendor/bin/phpcs ./vendor/ircmaxell/ --standard=PHPCompatibilityPasswordCompat --runtime-set testVersion 5.4- --ignore=/password-compat/test/*
 
   # Validate the composer.json file.
   # @link https://getcomposer.org/doc/03-cli.md#validate

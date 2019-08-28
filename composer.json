@@ -21,7 +21,8 @@
     "phpcompatibility/php-compatibility" : "^9.0"
   },
   "require-dev" : {
-    "dealerdirect/phpcodesniffer-composer-installer": "^0.5"
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+    "ircmaxell/password-compat": "dev-master"
   },
   "suggest" : {
     "dealerdirect/phpcodesniffer-composer-installer": "^0.5 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
