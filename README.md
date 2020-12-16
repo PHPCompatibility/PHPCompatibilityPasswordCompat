@@ -1,7 +1,7 @@
 [![Latest Stable Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-passwordcompat/v/stable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat)
 [![Latest Unstable Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-passwordcompat/v/unstable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat)
 [![License](https://poser.pugx.org/phpcompatibility/phpcompatibility-passwordcompat/license.png)](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/PHPCompatibility/PHPCompatibilityPasswordCompat.svg?branch=master)](https://travis-ci.org/PHPCompatibility/PHPCompatibilityPasswordCompat)
+[![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/workflows/CI/badge.svg?branch=master)](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/actions)
 
 # PHPCompatibilityPasswordCompat
 
