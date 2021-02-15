@@ -86,9 +86,16 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 
 ## Changelog
 
+### 1.0.3 - 2021-02-15
+
+- The recommended version of the [Composer PHPCS plugin] is now `^0.7.0`, which offers compatibility with Composer 2.0.
+- The rulesets are now also tested against PHP 7.4 and 8.0.
+    Note: full PHP 7.4 support is only available in combination with PHP_CodeSniffer 3.5.6.
+    Note: runtime PHP 8.0 support is only available in combination with PHP_CodeSniffer 3.5.7, full support is expected in PHP_CodeSniffer 3.6.0.
+
 ### 1.0.2 - 2019-08-29
 
-* Composer: The recommended version of the [Composer PHPCS plugin](https://github.com/Dealerdirect/phpcodesniffer-composer-installer/) has been upped to `^0.5.0`.
+* Composer: The recommended version of the [Composer PHPCS plugin] has been upped to `^0.5.0`.
 * CI: Added early warning system for false positives due to changes in the polyfill library itself.
 
 ### 1.0.1 - 2018-12-16
@@ -100,3 +107,5 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 ### 1.0.0 - 2018-10-07
 
 Initial release of the PHPCompatibilityPasswordCompat ruleset.
+
+[Composer PHPCS plugin]: https://github.com/Dealerdirect/phpcodesniffer-composer-installer/
