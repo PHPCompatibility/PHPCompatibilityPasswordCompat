@@ -17,6 +17,11 @@
     "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/issues",
     "source" : "https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat"
   },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
   "require" : {
     "phpcompatibility/php-compatibility" : "^9.0"
   },
