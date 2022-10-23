@@ -87,7 +87,7 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 
 ### 1.0.4 - 2022-10-23
 
-- README: Updated the installation instructions for [compatibility with Composer 2.2][composer22announce].
+- README: Updated the installation instructions for [compatibility with Composer >= 2.2][composer22announce].
 - Composer: The package will now identify itself as a static analysis tool. Thanks [@GaryJones]!
 - Other housekeeping and minor documentation updates.
 
