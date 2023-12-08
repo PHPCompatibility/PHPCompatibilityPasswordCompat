@@ -15,7 +15,8 @@
   } ],
   "support" : {
     "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/issues",
-    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat"
+    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat",
+    "security": "https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/security/policy"
   },
   "config": {
     "allow-plugins": {
