@@ -89,6 +89,7 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 
 This is a maintenance release.
 
+- The recommended version of the [Composer PHPCS plugin] is now `^1.0.0`.
 - README: Fixed some broken badges.
 - General housekeeping and maintenance. Including a contribution by [@fredden].
 
