@@ -85,6 +85,13 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 
 ## Changelog
 
+### 1.0.5 - 2025-01-16
+
+This is a maintenance release.
+
+- README: Fixed some broken badges.
+- General housekeeping and maintenance. Including a contribution by [@fredden].
+
 ### 1.0.4 - 2022-10-23
 
 - README: Updated the installation instructions for [compatibility with Composer >= 2.2][composer22announce].
@@ -117,4 +124,5 @@ Initial release of the PHPCompatibilityPasswordCompat ruleset.
 
 [Composer PHPCS plugin]: https://github.com/PHPCSStandards/composer-installer/
 
+[@fredden]:   https://github.com/fredden
 [@GaryJones]: https://github.com/GaryJones
