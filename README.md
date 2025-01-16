@@ -1,7 +1,7 @@
-[![Latest Stable Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-passwordcompat/v/stable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat)
-[![Latest Unstable Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-passwordcompat/v/unstable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat)
-[![License](https://poser.pugx.org/phpcompatibility/phpcompatibility-passwordcompat/license.png)](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/blob/master/LICENSE)
-[![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/workflows/CI/badge.svg?branch=master)](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/actions)
+[![Latest Stable Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-passwordcompat?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat)
+[![Latest Unstable Version](https://img.shields.io/badge/unstable-dev--develop-e68718.svg?maxAge=2419200)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat)
+[![License](https://img.shields.io/github/license/PHPCompatibility/PHPCompatibilityPasswordCompat?color=00a7a7)](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/blob/master/LICENSE)
+[![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/actions/workflows/ci.yml)
 
 # PHPCompatibilityPasswordCompat
 
