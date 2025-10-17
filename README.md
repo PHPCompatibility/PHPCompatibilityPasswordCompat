@@ -85,6 +85,13 @@ All code within the PHPCompatibility organisation is released under the GNU Less
 
 ## Changelog
 
+### 1.0.6 - 2025-10-18
+
+This is a maintenance release.
+
+- The ruleset now includes schema tags.
+- General housekeeping and maintenance.
+
 ### 1.0.5 - 2025-01-16
 
 This is a maintenance release.
