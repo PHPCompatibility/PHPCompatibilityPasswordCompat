@@ -68,7 +68,7 @@ jobs:
 
         include:
           - php: '7.4'
-            phpcompat: 'dev-develop as 9.99.99'
+            phpcompat: 'dev-develop as 10.99.99'
             experimental: true
 
     name: "Test: PHP ${{ matrix.php }} - PHPCompat ${{ matrix.phpcompat }}"
@@ -103,10 +103,15 @@ jobs:
 
       # Make sure that known polyfills don't trigger any errors.
       - name: Test the ruleset
-        run: |
-          vendor/bin/phpcs -ps ./Test/PasswordCompatTest.php --standard=PHPCompatibilityPasswordCompat --runtime-set testVersion 5.4-
+        run: >
+          vendor/bin/phpcs -ps ./Test/PasswordCompatTest.php --standard=PHPCompatibilityPasswordCompat
+          --exclude=PHPCompatibility.Upgrade.LowPHP
+          --runtime-set testVersion 5.4-
 
       # Check that the ruleset doesn't throw unnecessary errors for the compat library itself.
       - name: Test running against the polyfills
-        run: |
-          vendor/bin/phpcs -ps ./vendor/ircmaxell/ --standard=PHPCompatibilityPasswordCompat --runtime-set testVersion 5.4- --ignore=/password-compat/test/*
+        run: >
+          vendor/bin/phpcs -ps ./vendor/ircmaxell/ --standard=PHPCompatibilityPasswordCompat
+          --exclude=PHPCompatibility.Upgrade.LowPHP
+          --ignore=/password-compat/test/*
+          --runtime-set testVersion 5.4-
