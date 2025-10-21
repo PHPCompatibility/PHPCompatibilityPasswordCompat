@@ -1,7 +1,7 @@
 # PHPCompatibilityPasswordCompat
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-passwordcompat?label=stable)][packagist]
-[![Latest Unstable Version](https://img.shields.io/badge/unstable-dev--develop-e68718.svg?maxAge=2419200)][packagist]
+[![Latest Unstable Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-passwordcompat?include_prereleases&label=pre-release)][packagist]
 [![License](https://img.shields.io/github/license/PHPCompatibility/PHPCompatibilityPasswordCompat?color=00a7a7)](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/blob/master/LICENSE)
 [![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/actions/workflows/ci.yml)
 
