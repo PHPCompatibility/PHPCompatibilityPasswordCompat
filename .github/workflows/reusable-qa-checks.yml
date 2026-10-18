@@ -69,11 +69,11 @@ jobs:
 
     strategy:
       matrix:
-        php: ['5.4', 'latest']
+        php: ['7.2', 'latest']
         phpcompat: ['stable']
 
         include:
-          - php: '7.4'
+          - php: '8.1'
             phpcompat: 'dev-develop'
 
     continue-on-error: ${{ matrix.phpcompat != 'stable' }}
@@ -114,13 +114,11 @@ jobs:
       - name: Test the ruleset
         run: >
           vendor/bin/phpcs -ps ./Test/PasswordCompatTest.php --standard=PHPCompatibilityPasswordCompat
-          --exclude=PHPCompatibility.Upgrade.LowPHP
           --runtime-set testVersion 5.4-
 
       # Check that the ruleset doesn't throw unnecessary errors for the compat library itself.
       - name: Test running against the polyfills
         run: >
           vendor/bin/phpcs -ps ./vendor/ircmaxell/ --standard=PHPCompatibilityPasswordCompat
-          --exclude=PHPCompatibility.Upgrade.LowPHP
           --ignore=/password-compat/test/*
           --runtime-set testVersion 5.4-
